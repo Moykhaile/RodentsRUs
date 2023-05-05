@@ -1,0 +1,70 @@
+.dlchoice {
+    margin: 2em 30% 4em 15%;
+    display: flex;
+}
+
+.image {
+    transition: 0.25s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.image:hover img {
+    opacity: 0.5;
+}
+
+.image:hover .search {
+    opacity: 1;
+}
+
+.image img {
+    border-radius: 25%;
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    opacity: 0;
+    transition: 0.25s;
+    white-space: nowrap;
+}
+
+.searchIcon {
+    font-size: xx-large;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2em 0 0 2em;
+    cursor: default;
+}
+
+.title {
+    font-size: xx-large;
+    text-indent: 2rem;
+}
+
+.description {
+    text-indent: 2em;
+    opacity: 0.75;
+}
+
+.description p {
+    margin: 0;
+}

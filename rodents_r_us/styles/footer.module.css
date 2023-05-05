@@ -1,0 +1,91 @@
+.footer {
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fato {
+    font-size: large;
+    color: #aaaaaa;
+    margin: 1em;
+    transition: 1s;
+    cursor: default;
+}
+
+.fato:hover {
+    color: #666;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    padding: 1em 4em;
+    margin: 1em 0em;
+    border: 1px solid #cbcbcb;
+}
+
+.nav:hover {
+    border: 1px solid #666666;
+}
+
+.nav a {
+    text-decoration: none;
+    text-decoration: underline rgba(255, 255, 255, 0);
+    color: #333333;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    color: #666666;
+    text-decoration: underline #666666;
+}
+
+.contato {
+    margin: 1em 0;
+    padding: 0em 2em 1em 2em;
+    transition: 0.5s;
+    border-right: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+}
+
+.contato:hover {
+    border-right: 1px solid #666;
+    border-left: 1px solid #666;
+}
+
+.contato h1 {
+    font-size: large;
+    cursor: default;
+}
+
+.contato:hover h1 {
+    color: #666;
+}
+
+.contato p {
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    transition: 0.5s;
+}
+
+.image {
+    max-width: 5em;
+    height: auto;
+}
+
+.copyright {
+    background-color: #ffffff;
+    padding: 2em 0;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.copyright:hover {
+    background-color: #333;
+    color: #fff;
+}

@@ -1,0 +1,129 @@
+.header {
+    position: sticky;
+    position: -webkit-sticky;
+    margin-left: -1%;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    background-color: white;
+}
+
+.wrap {
+    display: block;
+    padding: 1em;
+    font-size: 14px;
+    color: #333333;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.img {
+    text-decoration: none;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    width: 4em;
+    height: 4em;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    z-index: 102;
+}
+
+.img:hover img {
+    transform: translate(0.5em, 0);
+    opacity: 0.75;
+}
+
+.img:hover~.title,
+.title:hover {
+    transform: translate(-0.5em, 0);
+    opacity: 0.75;
+}
+
+.title {
+    padding-left: 1em;
+    font-size: 2em;
+    text-decoration: none;
+    color: #333333;
+    transition: 0.5s;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.itemsWrap {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: middle;
+    justify-content: flex-end;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.items a {
+    color: #333333;
+    text-decoration: underline rgba(255, 255, 255, 0);
+    padding: 0 1em 0 1em;
+    border-left: 1px solid #bcbcbc;
+    flex-wrap: nowrap;
+    transition: 0.5s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.1em;
+}
+
+.items a:hover {
+    color: #666666;
+    text-decoration: underline #666666;
+    border-left: 1px solid #aaaaaa;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 10em;
+}
+
+.profile img {
+    text-decoration: none;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    width: 3em;
+    height: 3em;
+    margin-left: 5%;
+    transition: 0.25s;
+    margin-left: 1em;
+    border-radius: 50%;
+}
+
+.profile:hover img {
+    opacity: 0.75;
+}
