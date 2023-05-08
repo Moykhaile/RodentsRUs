@@ -1,0 +1,29 @@
+.error {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.title {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.desc {
+    margin: 0;
+}
+
+.route {
+    font-size: large;
+    margin-top: 2em;
+}
+
+.link {
+    color: #333333;
+    transition: 0.25s;
+}
+
+.link:hover {
+    color: #666666;
+    text-decoration: underline #666666;
+}

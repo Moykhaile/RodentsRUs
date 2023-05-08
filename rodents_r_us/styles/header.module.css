@@ -1,8 +1,10 @@
 .header {
     position: sticky;
     position: -webkit-sticky;
-    margin-left: -1%;
+    right: 0;
+    left: 0;
     top: 0;
+    margin-left: -2%;
     z-index: 100;
     width: 100vw;
     background-color: white;
@@ -13,6 +15,9 @@
     padding: 1em;
     font-size: 14px;
     color: #333333;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 .navbar {
@@ -83,7 +88,7 @@
     margin-right: 5%;
 }
 
-.items a {
+.items .item {
     color: #333333;
     text-decoration: underline rgba(255, 255, 255, 0);
     padding: 0 1em 0 1em;
@@ -97,7 +102,7 @@
     font-size: 1.1em;
 }
 
-.items a:hover {
+.items .item:hover {
     color: #666666;
     text-decoration: underline #666666;
     border-left: 1px solid #aaaaaa;

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Logo2 from '../public/logo/logo2.png';
 import footer from '@/styles/footer.module.css';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -9,10 +10,10 @@ export default function Footer() {
                 “Ratos podem ser encontrados em todo o território terrestre.”
             </div>
             <nav className={footer.nav}>
-                <a href="">Home</a>
-                <a href="">Espécies</a>
-                <a href="">Favoritos</a>
-                <a href="">Perfil/Login</a>
+                <Link className={footer.navLink} href="/">Home</Link>
+                <Link className={footer.navLink} href="">Espécies</Link>
+                <Link className={footer.navLink} href="">Favoritos</Link>
+                <Link className={footer.navLink} href="">Perfil/Login</Link>
             </nav>
             <div className={footer.contato}>
                 <h1>Contato</h1>

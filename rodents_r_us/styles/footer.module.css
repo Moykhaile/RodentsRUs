@@ -32,14 +32,14 @@
     border: 1px solid #666666;
 }
 
-.nav a {
+.nav .navLink {
     text-decoration: none;
     text-decoration: underline rgba(255, 255, 255, 0);
     color: #333333;
     transition: 0.5s;
 }
 
-.nav a:hover {
+.nav .navLink:hover {
     color: #666666;
     text-decoration: underline #666666;
 }
